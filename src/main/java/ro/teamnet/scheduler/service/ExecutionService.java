@@ -4,7 +4,7 @@ import org.springframework.plugin.core.Plugin;
 import ro.teamnet.scheduler.enums.JobExecutionStatus;
 
 /**
- * Created by Oana.Mihai on 6/30/2015.
+ * The execution service used for delegating execution tasks to the clients of the scheduler module..
  */
 public interface ExecutionService extends Plugin<String> {
     /**

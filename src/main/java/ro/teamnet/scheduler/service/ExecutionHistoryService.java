@@ -6,7 +6,7 @@ import ro.teamnet.scheduler.dto.JobExecutionDTO;
 import ro.teamnet.scheduler.dto.ConfigurationDTO;
 
 /**
- * The public scheduler service.
+ * The public execution history service.
  */
 public interface ExecutionHistoryService {
 

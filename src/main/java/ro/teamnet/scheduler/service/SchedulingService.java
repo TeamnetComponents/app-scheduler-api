@@ -3,12 +3,14 @@ package ro.teamnet.scheduler.service;
 import ro.teamnet.scheduler.dto.ConfigurationDTO;
 
 /**
- * The public scheduler service.
+ * The public scheduling service.
  */
 public interface SchedulingService {
 
-    void createJob(ConfigurationDTO jobDTO);
+    void createJob(ConfigurationDTO configurationDTO);
 
-    void deleteJob(ConfigurationDTO jobDTO);
+    void deleteJob(ConfigurationDTO configurationDTO);
+
+    Long getSchedulingId(ConfigurationDTO configurationDTO);
 
 }
