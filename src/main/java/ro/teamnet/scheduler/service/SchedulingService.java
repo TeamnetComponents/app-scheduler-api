@@ -1,7 +1,7 @@
 package ro.teamnet.scheduler.service;
 
 import ro.teamnet.scheduler.dto.ConfigurationDTO;
-import ro.teamnet.scheduler.dto.SchedulingDTO;
+import ro.teamnet.scheduler.dto.SchedulingBaseDTO;
 
 /**
  * The public scheduling service.
@@ -12,6 +12,6 @@ public interface SchedulingService {
 
     void deleteJob(ConfigurationDTO configurationDTO);
 
-    SchedulingDTO getSchedulingId(ConfigurationDTO configurationDTO);
+    SchedulingBaseDTO getSchedulingBase(ConfigurationDTO configurationDTO);
 
 }

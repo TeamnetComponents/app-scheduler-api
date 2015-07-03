@@ -3,11 +3,11 @@ package ro.teamnet.scheduler.dto;
 /**
  * Created by Marian.Spoiala on 7/3/2015.
  */
-public class SchedulingDTO {
+public class SchedulingBaseDTO {
     private Long id;
     private Long version;
 
-    public SchedulingDTO(Long id, Long version) {
+    public SchedulingBaseDTO(Long id, Long version) {
         this.id = id;
         this.version = version;
     }
