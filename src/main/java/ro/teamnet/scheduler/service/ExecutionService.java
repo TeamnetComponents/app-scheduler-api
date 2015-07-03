@@ -16,6 +16,13 @@ public interface ExecutionService extends Plugin<String> {
     Long start(Long configurationId);
 
     /**
+     * Recovers the job execution identified by the given data id, in case of a scheduler failure.
+     *
+     * @param dataId the execution data identifier
+     */
+    void recover(Long dataId);
+
+    /**
      * Retrieves the status of th job execution identified by the given data id.
      *
      * @param dataId the execution data identifier
