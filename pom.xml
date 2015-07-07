@@ -8,6 +8,7 @@
         <bootstrap.version>0.2-SNAPSHOT</bootstrap.version>
         <quartz.version>2.2.1</quartz.version>
         <h2.version>1.4.182</h2.version>
+        <spring-plugin.version>1.2.0.RELEASE</spring-plugin.version>
     </properties>
 
     <parent>
@@ -46,7 +47,7 @@
         <dependency>
             <groupId>org.springframework.plugin</groupId>
             <artifactId>spring-plugin-core</artifactId>
-            <version>1.2.0.RELEASE</version>
+            <version>${spring-plugin.version}</version>
         </dependency>
         <!--Bootstrap commons-->
         <dependency>
