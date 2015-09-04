@@ -12,5 +12,7 @@ public interface ExecutionHistoryService {
 
     AppPage<JobExecutionDTO> findJobExecutions(AppPageable appPageable, ConfigurationDTO configurationDTO);
 
+    AppPage<JobExecutionDTO> findAllJobExecutions(AppPageable appPageable);
+
     Long getExecutionDataId(ConfigurationDTO configurationDTO, Long jobExecutionId);
 }

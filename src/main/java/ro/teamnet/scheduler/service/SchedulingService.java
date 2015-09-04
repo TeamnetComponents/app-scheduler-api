@@ -14,4 +14,5 @@ public interface SchedulingService {
 
     SchedulingBaseDTO getSchedulingBase(ConfigurationDTO configurationDTO);
 
+    ConfigurationDTO getConfigurationDTOByJobExecId(Long jobExecId);
 }
